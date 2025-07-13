@@ -3,7 +3,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useAppContext } from '../hooks/useAppContext';
 import type { Transaction, Category, TransactionClassification, DashboardType, Budget } from '../types';
 import { Trash2, X, TrendingDown, TrendingUp, ArrowRightLeft, AlertTriangle, Save, Plus } from 'lucide-react';
-import { TransactionClassifications } from '../../types';
+import { TransactionClassifications } from '../types';
 import TagSelector from './TagSelector';
 import {
     endOfMonth,
